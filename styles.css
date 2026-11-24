@@ -1,0 +1,38 @@
+#nav-list{
+	display :flex;
+	justify-content: space-between;
+	list-style-type: none;
+
+}
+ a{
+	text-decoration: none;
+}
+
+:root {
+  --primary-bg-color: #FBEFEF;
+  --primary-color: #FFE2E2;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+}
+
+.container {
+  color: var(--primary-bg-color);
+  background-color: var(--primary-color);
+  padding: 15px;
+}
+
+.container h2 {
+  border-bottom: 2px solid var(--primary-bg-color);
+}
+
+.container .note {
+  border: 1px solid var(--primary-bg-color);
+  padding: 10px;
+}
+
+section img {
+  width: 500px;
+  height: auto;
+}
